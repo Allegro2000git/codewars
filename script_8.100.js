@@ -15,6 +15,6 @@ Output: -2.398
 */
 
 function sum (numbers) {
-    let res = numbers.reduce((acc, curr) => acc+curr, 0)
-    return res
+    let result = numbers.reduce((acc, curr) => acc+curr, 0)
+    return result
 }
