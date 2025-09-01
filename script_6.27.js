@@ -23,7 +23,7 @@ function findEvenIndex(arr) {
         }
         right -= arr[i]
 
-        if (left == right) return i
+        if (left === right) return i
     }
     return -1
 }
